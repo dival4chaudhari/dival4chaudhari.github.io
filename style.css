@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+#bgimg1 {
+    z-index: -2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#bgimg2{
+    padding-top: 5px;
+    z-index: -2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#img40{
+    z-index: -2;
+    position: absolute;
+    height: 40%;
+    width: 85%;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+}
+
+.steps {
+    z-index: -2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#girlimg{
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    padding-left: 40%;   
+}
+#bg3 {
+    z-index: -2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#boy{
+    z-index: -1;
+    position: absolute;
+    height: 140%;
+    width: 95%;
+}
+#logo{
+    padding: 1% 2%;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#terminial {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 7%;
+    font-size: 20px;
+}
+#titleh1 {
+    padding-left: 7%;
+
+}
+
+#talktous {
+    padding: 0px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(183, 197, 63);
+}
+h1{
+    font-size: 60px;
+    width: 70%;
+}
+@media (min-width:700px) {
+    h1{
+        font-size: 50px;
+    }
+    
+}
+.para {
+    font-size: 20px;
+}
+#terminial a {
+    padding-right: 5%;
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    width: 7%;
+}
+#home {
+    padding-left: 50px;
+}
+#Testimonials{
+    margin-right: 10%;
+}
+@media (max-width:700px) {
+    #Testimonials{
+        margin-right: 30%;
+    }
+    
+}
+#buttons {
+    padding-left: 100px;
+}
+.btn {
+    font-size: 20px;
+    padding: 20px 5%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#register {
+    color: white;
+    background-color: black;
+}
+
+#textonly {
+    padding-top: 80px;
+    padding-left: 60%;
+    box-shadow:inset -500px 0em 50000px white;
+
+}
+#h21 {
+    padding-bottom: 50px;
+    font-size: 50px;
+
+}
+
+.to5 {
+    display: flex;
+    padding-bottom: 50px;
+    padding-left: 35px;
+}
+.bignum {
+    font-size: 50px;
+    color: rgb(183, 197, 63);
+}
+.to5 p{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.more{
+    padding-bottom: 13px;
+}
+
+
+
+
+
+.complex{
+    display: flex;
+    padding-top: 350px;
+}
+#div3 {
+    background-color: rgb(183, 197, 63);
+}
+.div{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.div h2 {
+    font-size: 2.3em;
+}
+@media (min-width:700px) {
+    .div h2{
+        font-size: 1.5em;
+    }
+    
+}
+.div2{
+    width: 40%;
+    height: 45%;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.one{
+    color: rgb(183, 197, 63);
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+    background-color:white;
+    font-size: 30px;
+}
+.two{
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+    background-color:white;
+    color: black;
+}
+.white{
+    background-color: rgb(220, 219, 219);
+}
+.one{
+}
+.paddingdiv {
+    padding-right: 25px;
+}
+.div2 p{
+    padding-top: 25px;
+    font-size: 20px;
+}
+@media (min-width:700px) {
+    .div2 p, .div2 p {
+        font-size: 13px;
+    }
+}
+
+#yellowbox {
+    margin-top: 720px;
+    display: flex;
+    background-color: rgb(183, 197, 63);
+}
+#yellowbox h3 {
+    font-size: 40px;
+    padding: 100px 100px ;
+}
+@media (min-width:700px) {
+    #yellowbox h3{
+        font-size: 30px;
+        
+    }
+}
+#btndiv{
+    padding: 100px 0px 100px 50px;
+}
+#btn2{
+    padding: 25px;
+    font-size: 30px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+#maindiv{
+    padding-left: 50%;
+    padding-top: 100px;
+}
+#firstdiv h3{
+    font-size: 200%;
+}
+#next{
+    font-size: 20px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: rgb(232, 249, 78);
+    border: 2px solid white;
+}
+.div12{
+    padding-top: 50px;
+    display: flex;
+}
+.large{
+    font-size: 45px;
+    font-weight: bold;
+}
+.stats {
+    width: 30%;
+    padding-right: 100px;
+}
+@media (min-width:700px) {
+    .large{
+        font-size: 35px;
+    }
+    
+}
+#feedback{
+    padding-left: 100px;
+    background-color: rgb(241, 239, 239);
+}
+#merge{
+    display: flex;
+}
+.review{
+    padding: 15px;
+    border: 3px solid white;
+    background-color: white;
+    margin-right: 50px;
+    width: 400px;
+}
+
+
+#feedback h3 {
+    font-size: 50px;
+}
+
+#footer{
+    height: 200px;
+    background-color: black;
+}
+#footer h3{
+    font-size:35px ;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#handles{
+    text-align: center;
+    display: flex;
+}
+#handles p{
+    width: 25%;
+    color: white;
+}
+.color{
+    color: rgb(232, 249, 78);
+}
+
+/* @media screen and (max-width: 800px)
+    {
+        #girlimg,#bgimg2,#img40,#boy {
+            width: 100%;
+        }
+    }
+     */
