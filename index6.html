@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3s4Wz6iJgD/+ub2oU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3s4Wz6iJgD/+ub2oU" crossorigin="anonymous">
+</head>
+<body>
+    <div class="flex bg-white-200 text-center justify-between px-5 py-3">
+        <button class="text-gray-600 hover:text-gray-900 focus:outline-none">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+        <h1 class="text-black font-bold text-xl mr-20">Workout Tracker</h1>
+    </div>
+    <div class="w-full h-10 text-center justify-center">
+        <p class="mt-10">No previous data</p>
+    </div>
+    <div class="ml-3 flex flex-col mt-10">
+        <div class="w-full max-w-sm">
+            <!-- Add your chart here -->
+        </div>
+        <div class="flex">
+            <h2 class="text-gray-800 font-bold text-xl mt-10">Upcoming Workout</h2>
+            <button class="ml-20 mt-11 text-gray-600 text-right">See more</button>
+        </div>
+        <div class="h-20 rounded-lg border-2 border-gray-100 mr-5 shadow-lg flex items-center mt-10">
+            <img src="/all images/Ellipse 53.png" alt="Round Image" class="ml-5 rounded-full mr-5">
+            <div>
+            <p class="text-sm text-gray-800 font-bold mr-5">Full Body Workout</p>
+            <p class="text-xs text-gray-600">Today 3pm</p>
+            </div>
+            
+            <label class="ml-10 switch" style="position: relative; display: inline-block; width: 60px; height: 28px;">
+                <input type="checkbox" id="mySwitch" style="display: none;">
+                <span class="rounded-full slider round" style="position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition:.4s;">
+                  <span class="rounded-full" style="position: absolute; content: ''; height: 20px; width: 20px; left: 4px; bottom: 4px; background-color: white; transition:.4s;"></span>
+                </span>
+              </label>
+        </div>
+        <div class="h-20 rounded-lg border-2 border-gray-100 mr-5 shadow-lg flex items-center mt-3">
+            <img src="/all images/Ellipse 54.png" alt="Round Image" class="ml-5 rounded-full mr-5">
+            <div>
+            <p class="text-sm text-gray-800 font-bold text-md ">Upper Body Workout</p>
+            <p class="text-xs text- text-gray-600 ">4 Fed, 3:30 pm</p>
+            </div>
+            
+            <label class="ml-10 switch" style="position: relative; display: inline-block; width: 60px; height: 28px;">
+                <input type="checkbox" id="mySwitch" style="display: none;">
+                <span class="rounded-full slider round" style="position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition:.4s;">
+                  <span class="rounded-full" style="position: absolute; content: ''; height: 20px; width: 20px; left: 4px; bottom: 4px; background-color: white; transition:.4s;"></span>
+                </span>
+              </label>
+        </div>
+    </div>
+    <div>
+        <h2 class="text-gray-800 font-bold text-xl mt-10 ml-2">What Do You Want To Train</h2>
+    </div>
+    <div class="h-40 bg-blue-300 ml-3 border-2  rounded-lg border-2 border-gray-100 mr-5 shadow-lg flex items-center mt-3">
+        
+        <div class="ml-3">
+        <p class="text-sm text-gray-800 font-bold">Full Body Workout</p>
+        <div class="">
+            <p class="text-sm text-gray-600">Arms</p>
+            <p class="text-sm text-gray-600">Chest</p>
+            <p class="text-sm text-gray-600">Legs</p>
+        </div>
+        </div>
+        
+<img class="ml-20 w-25" src="/all images/Ellipse 55.png" alt="Round Image" class="ml-5 rounded-full mr-5">
+    </div>
+    
+      <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 px-2 py-2 flex justify-between items-center z-50">
+        <a href="#" class="flex flex-col items-center" id="home" style="color: #1f2937; font-size: 2rem;">
+          <img src="/all images/Vector.png" alt="Home">
+          <span class="text-xs mt-1" style="color: #1f2937;"></span>
+        </a>
+        <a href="index7.html" class="flex flex-col items-center" id="negation" style="color: #1f2937; font-size: 2rem;">
+          <img src="/all images/Group.png">
+          <span class="text-xs mt-1" style="color: #1f2937;"></span>
+        </a>
+        <a href="#" class="flex flex-col items-center" id="search" style="color: #1f2937; font-size: 2rem;">
+          <div class="rounded-full w-12 h-12 bg-blue-300">
+            <img class="ml-3 mt-3" src="/all images/Vector (1).png" alt="search">
+        </div>
+          <span class="text-xs mt-1" style="color: #1f2937;"></span>
+        </a>
+        <a href="#" class="flex flex-col items-center" id="camera" style="color: #1f2937; font-size: 2rem;">
+          <img src="/all images/Vector (2).png" alt="camera">
+          <span class="text-xs mt-1" style="color: #1f2937;"></span>
+        </a>
+        <a href="#" class="mr-2 flex flex-col items-center" id="user" style="color: #1f2937; font-size: 2rem;">
+          <img src="/all images/Group (1).png" alt="user">
+          <span class="text-xs mt-1" style="color: #1f2937;"></span>
+        </a>
+      </div>
+
+
+    <script>
+        const navbar = document.querySelector('.navbar');
+
+navbar.addEventListener('click', (event) => {
+  if (event.target.matches('a')) {
+    event.preventDefault();
+    const href = event.target.getAttribute('href');
+    window.location.href = href;
+    const activeLink = event.target;
+    activeLink.style.transform = 'translateY(-10px)';
+    activeLink.style.backgroundColor = '#b3e5fc';
+    activeLink.style.borderRadius = '0.5rem';
+  }
+});
+
+const links = document.querySelectorAll('a');
+links.forEach((link) => {
+  link.addEventListener('mouseleave', () => {
+    link.style.transform = 'translateY(0)';
+    link.style.backgroundColor = 'white';
+    link.style.borderRadius = '0';
+  });
+});
+
+navbar.addEventListener('click', (event) => {
+  if (event.target.matches('a')) {
+    event.preventDefault();
+    const href = event.target.getAttribute('href');
+    window.location.href = href;
+  }
+});
+        const mySwitch = document.getElementById("mySwitch");
+        
+        mySwitch.addEventListener("change", function() {
+          if (this.checked) {
+            // Do something when the switch is on
+            console.log("Switch is on");
+          } else {
+            // Do something when the switch is off
+            console.log("Switch is off");
+          }
+        });
+        </script>
+</body>
+</html>
